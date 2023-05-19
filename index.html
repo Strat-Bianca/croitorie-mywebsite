@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Strat Cristina - Croitorie</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png"/>
+
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+    <!--CSS Stylesheets-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Font Awesome-->
+
+    <script src="https://kit.fontawesome.com/9fee9d42f3.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap scripts-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+
+  <body>
+   
+    <!--Navigation Bar-->
+
+    <section class="navigation-section" id="navbar">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+          <a class="navbar-brand" href="/index.html"><img src="/images/logo.png" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Acasă</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#description">Despre noi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Servicii</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#album">Album</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!--Image Slider with Carousel Bootstrap 5-->
+
+    <section id="image-slider">
+      <div class="container-fluid ">
+        <div id="carouselExampleCaptions" class="carousel slide" >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/background.png" class="d-block w-100" alt="background-photo" >
+              <div class="carousel-caption  d-sm-block">
+                <h5 class="carousel-title">Croitorie Retuș - Bacău</h5>
+                <p class="brand-name">Strat Cristina</p>
+                <button type="button" class="btn btn-outline-dark btn-lg download-button"><a href="#footer" class="contact-me">Contact Me</a></button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/images/background1.png" class="d-block w-100" alt="background-photo2" >
+              <div class="carousel-caption d-sm-block ">
+                <h5 class="carousel-title">Reparații Mașini de Cusut</h5>
+                <p class="brand-name">Strat Costel</p>
+                <button type="button" class="btn btn-outline-dark btn-lg download-button"><a href="#footer" class="contact-me">Contact Me</a></button>
+              </div>
+            
+            </div>
+            <div class="carousel-item">
+              <img src="/images/background2.png" class="d-block w-100" alt="background-photo3" >
+            </div>
+         
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </div>
+    </section>
+   
+
+   <main>
+
+    <!--About us-->
+
+    <section class="about-us-section" id="description">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-6 col-sm-12">
+            <img src="/images/rochie-fucsia-cordon1.jpeg " class="rounded mx-auto d-block img-fluid s" alt="biaphoto" />
+          </div>
+          <div class="feature-box col-lg-6 col-sm-12">
+            <h3 class="description-title">  Atelier de Croitorie</h3>
+            <p class="list-description">
+              Atelier de Croitorie, specializat în retușuri de orice fel:  </p>
+              <ul class="list-item">
+                <li>Modificări îmbrăcăminte de orice fel.</li>
+                <li>Modificări perdele, draperii, huse canapele.</li>
+                <li>Confecționăm și realizăm produse pe comandă.</li>
+                <li>Realizăm rochii de ocazii, cămăși, veste, geci etc.</li>
+                <li>Confecționăm și articole pentru animăluțele de companie,      
+                  cum ar fi: coșulețe și gecuțe
+                  pentru câini și pisici. </li>
+              </ul> 
+            <h3 class="description-title">Reparații Mașini de Cusut</h3>
+              <p>Ne găsiți de luni până vineri între orele (8:00 - 18:00), Atelierul de croitorie se
+              află în Bacău, pe strada Depoului nr. 75 A.</p>
+              <p>Reparații mașini de cusut - 0748990696.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+   <hr class="border border-light-emphasis border-1 opacity-50">
+
+
+    <!--Services Prices-->
+
+   <section class="services-section" id="services">
+      
+   <div class="container mt-3 ">
+   <h3 class="heading-table">Servicii și Prețuri</h3>           
+   <table class="table">
+    <tbody>
+      <tr>
+        <td>Festonat tiv</td>
+        <td>15 lei</td>
+      </tr>      
+      <tr class="table-light">
+        <td>Scurtat pantaloni</td>
+        <td>15 lei</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Scurtat fustă/rochie dreaptă</td>
+        <td>15 lei</td>
+      </tr>
+      <tr class="table-light">
+        <td>Scurtat mânecă cămașă</td>
+        <td>20 lei</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Modificat betelie</td>
+        <td>17 lei</td>
+      </tr>
+      <tr class="table-light">
+        <td>Scurtat rochie de ocazii</td>
+        <td>30 lei</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Schimbat fermoar</td>
+        <td>20-30 lei</td>
+      </tr>
+      <tr class="table-light">
+        <td>Scurtat geacă/palton</td>
+        <td>20-30 lei</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Manoperă geacă lungă/scurtă</td>
+        <td>150-180 lei</td>
+      </tr>
+      <tr class="table-light">
+        <td>Perdea</td>
+        <td>5 lei/ml</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Draperie</td>
+        <td>6 lei/ml</td>
+      </tr>
+      <tr class="table-light">
+        <td>Cearșaf simplu/plic</td>
+        <td>15-25 lei</td>
+      </tr>
+    </tbody>
+   </table>
+   <h3 class="heading-table">Tarife Călcat</h3>           
+   <table class="table">
+    <tbody>
+      <tr>
+        <td>Cămașă/Bluză/Hanorac</td>
+        <td>5-6 lei</td>
+      </tr>      
+      <tr class="table-light">
+        <td>Blugi/Pantaloni</td>
+        <td>7 lei</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Pantaloni scurți/Fustă</td>
+        <td>5 lei</td>
+      </tr>
+      <tr class="table-light">
+        <td>Sacou</td>
+        <td>8 lei</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Rochie de ocazie</td>
+        <td>15-25 lei</td>
+      </tr>
+      <tr class="table-light">
+        <td>Rochie de mireasă</td>
+        <td>30 lei</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Palton/Pardesiu</td>
+        <td>15 lei</td>
+      </tr>
+      <tr class="table-light">
+        <td>Față de pernă</td>
+        <td>3 lei</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Cearșaf de pat/de pilotă</td>
+        <td>7-8 lei</td>
+      </tr>
+    </tbody>
+   </table>
+   </div>
+   </div>
+    </section>
+    <hr class="border border-light-emphasis border-1 opacity-50">
+
+
+    <!--Gallery-->
+
+    <section class="gallery-section" id="album">
+      <h3>Galerie</h3>
+      <div class="row gallery">
+
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-banchet.jpeg" class="img-thumbnail" alt="rochie-banchet">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-banchet-profil.jpg" class="img-thumbnail" alt="rochie-banchet">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-banchet3.jpg" class="img-thumbnail" alt="rochie-banchet">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-banchet-slit.jpg" class="img-thumbnail" alt="rochie-banchet">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-catifea.jpeg" class="img-thumbnail" alt="rochie-catifea">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-fucsia-cordon1.jpeg" class="img-thumbnail" alt="rochie-fucsia">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-paiete.jpg" class="img-thumbnail" alt="rochie-paiete">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <img src="images/rochii-ocazii.jpg" class="img-thumbnail" alt="rochie-satin">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-satin-slit.jpg" class="img-thumbnail" alt="rochie-satin">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-șliț.jpg" class="img-thumbnail" alt="rochie-satin">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-ocazie-satin.jpg" class="img-thumbnail" alt="rochie-satin">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <img src="images/rochie-lunga-roz.jpg" class="img-thumbnail" alt="rochie-satin">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-ocazie.jpg" class="img-thumbnail" alt="rochie-satin">
+       </div> 
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-cupe.jpg" class="img-thumbnail" alt="rochie-satin">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <img src="images/rochie-ocazie-cupe.jpg" class="img-thumbnail" alt="rochie-satin">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-cordon.jpg" class="img-thumbnail" alt="rochie-cordon">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochie-dungi.jpg" class="img-thumbnail" alt="rochie-dungi">
+       </div>
+       
+       <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <img src="images/palton-rosu copil.jpg" class="img-thumbnail" alt="palton-copil">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochiță-roșie-fată.jpg" class="img-thumbnail" alt="rochie-fata">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochiță-fetiță.jpg" class="img-thumbnail" alt="rochie-fata">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <img src="images/rochită-fată.jpg" class="img-thumbnail" alt="rochie-fata">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/rochită-fetițe.jpg" class="img-thumbnail" alt="rochie-fata">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/cămașă cu guler.jpg" class="img-thumbnail" alt="cămașă">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/cămașă-dungi.jpg" class="img-thumbnail" alt="cămașă">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/cămașă-albastră.jpg" class="img-thumbnail" alt="cămașă">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/bluza-satin-verde.jpg" class="img-thumbnail" alt="bluză-satin">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/coș-inimă.jpg" class="img-thumbnail" alt="coș-inimă">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/coș-pisică.jpg" class="img-thumbnail" alt="coș-pisică">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/coș-câine.jpg" class="img-thumbnail" alt="coș-câine">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/geantă-albă.jpg" class="img-thumbnail" alt="geantă-albă">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/geantă-neagră.jpg" class="img-thumbnail" alt="geantă-neagră">
+       </div>
+       <div class="col-lg-3 col-md-4 col-sm-6">
+        <img src="images/gentă-roșie.jpg" class="img-thumbnail" alt="gentă-roșie">
+       </div>
+      </div>
+  
+    </section>
+   </main>
+
+    <hr class="border border-light-emphasis border-1 opacity-50">
+
+    <!--Footer Section-->
+
+  <footer>
+   <div class="footer-container" id="footer">
+     <div class="social-icons">
+       <a href="https://www.facebook.com/cristina.strat.3388" target="_blank"><i class="social-icon fa-brands fa-facebook"></i></a> 
+       <a href="https://www.instagram.com/croitorieretus/" target="_blank"><i class="social-icon fa-brands fa-instagram"></i></a>
+       <a href=""><i class="social-icon fa-solid fa-envelope"></i></a>
+     </div>
+      <div class="footer-nav">
+       <ul>
+          <li>
+            <a href="#">Acasă</a>
+          </li>
+          <li>
+            <a href="#album">Album</a>
+          </li>
+          <li>
+            <a href="#description">Despre noi</a>
+          </li>
+          <li>
+            <a  data-bs-toggle="collapse" href="#collapseExample" role="button">Contact</a>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <ul class="contact-phone">
+                <li>Croitorie: 0744818508</li>
+                <li>Reparații: 0748990696</li>
+              </ul>
+            </div>
+          </div>
+          </li>
+       </ul>
+       
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy;2023; Designed by <span class="designer-name">Strat</span></p>
+      <p id="adress"><i class="fa-solid fa-location-dot"></i> Strada Depoului nr. 75 A, Bacău</p>
+    </div>
+  </footer>
+ </body>
+</html>

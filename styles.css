@@ -1,0 +1,260 @@
+body {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin: 0;
+}
+h3 {
+  color: #454545;
+  padding: 5px;
+  background-color: #FEF2F4;
+}
+p {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.5;
+  justify-content: center;
+}
+
+/* Navigation Bar */
+
+#navbar {
+  padding: 0;
+  width: 100%;
+  height: auto;
+ 
+}
+.navbar-nav {
+  margin-right: 10px ;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  width: 10px;
+}
+
+.nav-item {
+  padding: 0.75rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.nav-link:hover {
+  color: #d4c25d;
+  transform: rotate(2deg);
+}
+
+/* Carousel Slider */
+
+.container-fluid {
+  padding: 0;
+  margin: 0 auto;
+  
+}
+
+#image-slider {
+  margin: 0;
+  
+}
+
+.carousel-title {
+  color: #726b6b;
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 1.5rem 0 0.50rem 1rem;
+ 
+}
+
+.brand-name {
+  color: #585454;
+  text-align: center;
+  font-size: 0.75rem;
+
+}
+.download-button {
+  font-size: 0.80rem;
+  margin: 2rem 0 0.25rem 1rem;
+  
+}
+.download-button:hover {
+  background-color: #EFEFEF;
+  color: #111;
+}
+.download-button:hover:active {
+  background-color: #EFEFEF;
+  color: #111;
+}
+.contact-me {
+  color:#000;
+  text-decoration: none;
+}
+
+@media(min-width: 768px) {
+  .carousel-title {
+    color: #8a8686;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 2rem 0 2rem 1rem;
+  }
+  
+  .brand-name {
+    color: #808080;
+    text-align: center;
+    font-size: 1.25rem;
+    
+  }
+  .download-button {
+    font-size: 1rem;
+    margin: 25rem 0 4rem 1rem;
+    
+  }
+}
+
+
+/*  About us section */
+
+#description {
+  padding: 2rem 4rem;
+}
+.description-title {
+  margin: 1rem 0;
+}
+.list-description {
+  font-size: 1.3rem;
+  
+}
+
+.list-item {
+  list-style: circle;
+}
+.list-item li {
+  text-align: left;
+  line-height: 2;
+  color: #000;
+  font-size: 16px;
+}
+
+/* Services Prices */
+
+#services {
+  padding: 1rem 4rem;
+}
+td {
+  font-size: 1.2rem;
+}
+.heading-table {
+  margin-bottom: 24px;
+}
+
+/* Gallery */
+
+#album {
+  padding: 1rem 8rem;
+  margin-bottom: 4rem;
+}
+#album h3 {
+  margin-bottom: 2rem;
+}
+
+/* Footer Section */
+
+footer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #FFF2F2;
+}
+.footer-container {
+  width: 100%;
+  padding: 15px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icons  a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #FAF8F1;
+  margin: 15px;
+  border-radius: 50%;
+}
+.social-icons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+ /* Hover Effects on Social Media Icons */
+
+ .social-icons a:hover {
+  background-color: #111;
+  transition: 0.3s;
+ }
+ .social-icons a:hover i {
+  color: #FAF8F1;
+  transition: 0.5s;
+ }
+
+ .footer-nav {
+  margin: 20px auto;
+ }
+
+ .footer-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+ }
+
+ .footer-nav ul li a {
+  color: #1A120B;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  transition: 0.5s;
+ }
+ .footer-nav ul li a:hover {
+  opacity: 1;
+  color: black;
+ 
+ }
+ .footer-bottom {
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+ }
+ .footer-bottom p {
+  color: white;
+ }
+ .designer-name {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+ }
+ @media (max-width: 700px) {
+  .footer-nav ul {
+   flex-direction: column;
+  }
+  .footer-nav ul li {
+    width: 85%;
+    text-align: center;
+    margin: 10px;
+  }
+ }
+
+ .card-body  {
+  background-color:#FFF2F2;
+  border-style: none;
+ 
+ }
+ .card-body ul {
+ flex-direction: column;
+ }
+
+ #adress {
+  font-size: 15px;
+  opacity: 0.7;
+ }
